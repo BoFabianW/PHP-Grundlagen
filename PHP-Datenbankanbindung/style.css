@@ -1,0 +1,71 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead tr td {
+    font-weight: 600;
+    background-color: burlywood;
+    padding: 20px 20px;
+}
+
+table tbody tr td {
+    background-color: rgb(48, 73, 73);
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+table tbody tr td a, button, table thead tr td a {
+    background-color: rgb(112, 59, 15);
+    color: blanchedalmond;
+    text-decoration: none;
+    border-style: none;
+    padding: 10px 15px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+
+form {
+    border: burlywood solid 1px;
+    background-color: rgb(48, 73, 73);
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    width: 30%;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    display: block;
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    color: burlywood;
+    margin-bottom: 5px;
+}
+
